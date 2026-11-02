@@ -101,7 +101,7 @@ ExecStart=$SCRIPT
 RemainAfterExit=yes
 
 [Install]
-WantedBy=network-pre.target
+WantedBy=multi-user.target
 EOF
 
 echo
